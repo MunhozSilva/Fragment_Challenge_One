@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragment Challenge One</string>
+    <string name="fragment_two">Fragment Two</string>
+    <string name="fragment_one">Fragment One</string>
+    <string name="write_your_text_here">Write your text here</string>
+    <string name="textview">TextView</string>
+</resources>
