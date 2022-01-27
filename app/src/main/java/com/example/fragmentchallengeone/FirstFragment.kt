@@ -13,7 +13,7 @@ class FirstFragment : Fragment(R.layout.fragment_one) {
 
         val button = view.findViewById<Button>(R.id.next_fragment_button)
         button.setOnClickListener {
-            val textSent = view?.findViewById<EditText>(R.id.text_to_send)?.text.toString()
+            val textSent = view.findViewById<EditText>(R.id.text_to_send).text.toString()
 
             val fragment = SecondFragment()
             val bundle = Bundle().apply { putString(EXTRA_INFO, textSent) }
